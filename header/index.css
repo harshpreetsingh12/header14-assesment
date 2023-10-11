@@ -1,0 +1,203 @@
+  @import url('https://fonts.googleapis.com/css2?family=Anek+Odia:wght@300&family=DM+Sans:opsz,wght@9..40,300&family=Dongle:wght@700&family=Dosis&family=Hind+Siliguri&family=Josefin+Sans:ital,wght@0,400;1,500&family=Lato&family=Merriweather:wght@900&family=Montserrat:wght@300;400;500&family=Noto+Sans&family=Oswald:wght@300;400&family=Raleway:wght@600&family=Rancho&family=Work+Sans:wght@500&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background: #2F1893;   
+     font-family: 'DM Sans', sans-serif;
+}
+
+/* #################################### navbar ################################### */
+nav{
+    max-width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 40px;
+    color: white;
+    font-weight: 500;
+    align-items: center;
+}
+.navtags{
+    display: flex;
+    gap:28px;
+    justify-content: center;
+    align-items: center;
+}
+.navtags a{
+    font-size: 18px;
+    line-height: 26px;
+    text-decoration: none;
+    color: white;
+}
+.navtags button{
+    margin-left: 21px;
+}
+.globalButton{
+    font-family: 'DM Sans', sans-serif;
+ background-color: #E93A7D;
+ border-radius: 24px;
+ height: 40px;
+ width: 120px;
+ font-size: 18px;
+ color: white;
+ outline: none;
+ border: none;
+}
+.activeNav{
+    color: #ffffff5e !important;
+}
+.navHead{
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+/* #################################### navbar ################################### */
+/* #################################### section ################################### */
+section{
+    max-width: 70%;
+    margin: auto;
+}
+.outerWrapper{
+    margin-top: 75px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.innerWrapper{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    color: white;
+}
+.innerWrapper h2{
+    font-weight: 600;
+    font-size: 58px;
+    letter-spacing: 2px;
+    line-height: 71px;
+}
+.innerWrapper p{
+    font-size: 22px;
+    line-height: 32px;
+    padding-right: 70px;
+}
+.learnButton{
+    height: 50px;
+    width: 157px;
+}
+.signupWrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 40px 0px;
+    justify-content: center;
+    border-radius: 8px;
+    align-items: center;
+}
+.signUPinner{
+    width: 100%;
+    max-width: 330px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.signupWrapper input{
+    font-size: 18px;
+    height: 50px;
+    border-radius: 20px;
+    margin: 0 auto;
+    border: 2px solid #EBEAED;
+    color: #EBEAED;
+    width: 88%;
+    font-family: 'DM Sans', sans-serif;
+    padding: 0 20px;
+    outline: none;
+}
+.signupWrapper h1{
+    font-weight: 700;
+    color: #1E0E62;
+    text-align: center;
+    font-size: 42px;
+    letter-spacing: 52px;
+    letter-spacing: -0.4px;
+    font-family: 'DM Sans', sans-serif;
+}
+.infoDiv{
+    display: flex;
+    align-items: center;
+}
+.infoDiv input{
+   height: 20px;
+   width: 20px;
+   margin-left: 0px;
+   margin-right: 10px;
+}
+.infoDiv p{
+    font-size: 16px;
+    color: #15143966;
+    line-height: 26px;
+}
+.signUpBtns{
+    height: 50px;
+    background: #482BE7;
+    border-radius: 33px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'DM Sans', sans-serif;
+    letter-spacing: .5px;
+}
+.separater{
+height: 2px;
+background-color: #EBEAED;
+padding: 0 20px;
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.separater span{
+position: absolute;
+color: #15143966;
+top: -10px;
+background-color: white;
+position: absolute;
+top: -13px;
+padding: 0 14px;
+line-height: 26px;
+font-size: 16px;
+}
+
+.twitterbtn{
+background-color: #1DA1F2;
+}
+.infoDiv span{
+    color: #1DA1F2;
+}
+.lowerInfoDiv{
+    justify-content: center;
+    gap: 10px;
+}
+/* #################################### section ################################### */
+
+@media only screen and (min-device-width:800px) and (max-width:1100px) {
+    section{
+        max-width: 90%
+    }
+    nav{
+        max-width: 90%
+    }
+}
+@media only screen and (min-device-width:100px) and (max-width:800px) {/*##### 3 0 0 ########*/
+   .outerWrapper{
+    flex-direction: column;
+    gap: 100px;
+   }
+   .innerWrapper{
+    width: 100%;
+   }
+}
